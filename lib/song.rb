@@ -37,7 +37,7 @@ class Song
   end
   
   def self.artist_count 
-    e 
+    puts "got here"
   end 
   
 end 
