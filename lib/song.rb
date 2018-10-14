@@ -15,10 +15,6 @@ class Song
     @genre = genre
   end
   
-  def new
-    @title = title
-  end
-  
   def self.count 
     @@count 
   end
