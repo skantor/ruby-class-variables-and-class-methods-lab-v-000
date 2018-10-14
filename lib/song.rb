@@ -29,6 +29,7 @@ class Song
   def self.genre_count 
     unique = @@genres.uniq
     ret = {}
+    unique.each do |genre|
     ret
   end
   
