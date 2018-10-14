@@ -43,9 +43,8 @@ class Song
   end
   
   def self.artist_count 
-    unique = @@artists.uniq
     ret = {}
-    unique.each do |genre|
+    @@artists.each do |genre|
       if ret.key? genre
         ret[genre] += 1 
       else 
