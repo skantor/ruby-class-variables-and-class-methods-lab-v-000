@@ -31,7 +31,8 @@ class Song
     ret = {}
     unique.each do |genre|
       if ret.has_key? genre
-        
+        ret[genre] += 1 
+      else 
         ret[genre] => genre.count
     ret
   end
