@@ -1,5 +1,7 @@
 class Song 
   
-  def self.artists
+  def self.artists 
+    e 
+  end 
   
 end 
