@@ -46,11 +46,7 @@ class Song
     unique = @@artists.uniq
     ret = {}
     unique.each do |genre|
-      if ret.has_key? genre
-        ret[genre] += 1 
-      else 
-        ret[genre] = 1
-      end
+      ret[genre] += 1
     end
     ret
   end 
