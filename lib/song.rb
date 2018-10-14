@@ -30,7 +30,9 @@ class Song
     unique = @@genres.uniq
     ret = {}
     unique.each do |genre|
-      ret[genre] => genre.count
+      if ret[genre] != nil 
+        
+        ret[genre] => genre.count
     ret
   end
   
