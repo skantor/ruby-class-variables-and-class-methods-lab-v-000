@@ -34,6 +34,8 @@ class Song
         ret[genre] += 1 
       else 
         ret[genre] => 1
+      end
+    end
     ret
   end
   
