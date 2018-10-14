@@ -33,7 +33,7 @@ class Song
       if ret.has_key? genre
         ret[genre] += 1 
       else 
-        ret[genre] => genre.count
+        ret[genre] => 1
     ret
   end
   
