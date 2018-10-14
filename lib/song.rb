@@ -20,7 +20,8 @@ class Song
   end 
   
   def self.genres
-    unique = @@genres
+    unique = @@genres.uniq 
+    unique
   end 
   
   def self.genre_count 
